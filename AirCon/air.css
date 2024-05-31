@@ -1,0 +1,92 @@
+.quan{
+    display: flex;
+    justify-content: center;
+    color:blue
+}
+.cool{
+    display: flex;
+    justify-content: center;
+}
+.rad{
+    border-radius: 10px;
+}
+.rad:hover{
+    filter: opacity(0.6);
+}
+.ac{
+    height: 400px;
+    width:100%;
+    border-radius: 20px;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+.AC{
+    border-radius: 10px;
+}
+.AC:hover{
+    transform:scale(1.1,1.1)
+
+}
+.box{
+    border: 1px solid black;
+    padding:5px;
+}
+.con{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+.png{
+    border-radius: 15px;
+}
+.haha{
+    border-radius: 100px;
+}
+.bg{
+    background-image: url("https://img.freepik.com/free-photo/flooring-white-space-scene-desk_1258-259.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1717027200&semt=ais_user");
+    border-radius: 10px 70px 10px 70px;
+}
+
+.can{
+    width:100%;
+    height:50px;
+    border-radius: 15px;
+    border:1px solid grey;
+   
+}
+.can1{
+    width: 100%;
+    height:50px;
+    border-radius: 15px;
+    border:1px solid grey;
+}
+.can2{
+    width: 100%;
+    height:150px;
+    border-radius: 15px;
+    border:1px solid grey;
+}
+.can3{
+    border-radius: 40px;
+    padding: 10px;
+    width:100%;
+    background-color:rgb(118, 118, 226);
+    color: white;
+    border: 1px solid grey;
+}
+.fram{
+    height: 300px;
+    width: 100%;
+}
+.cool1{
+    display: flex;
+    justify-content: center;
+}
+.blu:hover{
+    transform:scale(2.1,2.1)
+ 
+}
+.shad{
+    box-shadow: 2px 2px 2px 2px rgb(146, 146, 238);
+}

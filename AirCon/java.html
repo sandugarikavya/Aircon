@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+          <h1>Dynamic Count</h1>
+    <p>Count: <span id="count">0</span></p>
+
+    <script>
+        // Function to update the count
+        function updateCount() {
+            // Get the count element
+            var countElement = document.getElementById("count");
+            
+            // Get the current count
+            var currentCount = parseInt(countElement.textContent);
+            
+            // Increment the count
+            var newCount = currentCount + 1;
+            
+            // Update the count on the webpage
+            countElement.textContent = newCount;
+        }
+        
+        // Call updateCount function every second (1000 milliseconds)
+        setInterval(updateCount, 1000);
+    </script>
+<script>
+    varn,rem,str="";
+    varn=parseInt(prompt("enter a number"))
+    while(i!=0){
+        rem=parseInt(n%10);
+        switch(rem){
+            case 0:str+="z";
+            break;
+            case 1:str+="o"
+            break;
+            case 2:str+="T"
+        }
+    }
+</script>
+</body>
+</html>
